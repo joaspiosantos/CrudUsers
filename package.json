@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "@prisma/cli-init": "^0.2.0",
+    "@prisma/client": "^6.9.0",
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/express": "^5.0.3",
+    "prisma": "^6.9.0"
+  },
+  "module": "index.ts",
+  "name": "crud",
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "private": true,
+  "scripts": {
+    "dev": "bun run --watch ./src/main.ts"
+  },
+  "type": "module"
+}
